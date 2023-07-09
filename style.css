@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header menu style start here */
+.menu-container{
+    background-color:rgb(230, 220, 220);
+    /* padding: 20px; */
+    padding: 12px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.menus{
+    display: flex;
+}
+.logo-photo{
+    width: 100px;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 8px;
+    font-family: 19px;
+    cursor: pointer;
+}
+.item:hover{
+    color: blue;
+}
+/*header menu style end here  */
