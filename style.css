@@ -87,8 +87,43 @@
 /* main section style start here */
 .service-container{
     height: 100vh;
-    background-color: black;
+   display: flex;
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4));
+   background-blend-mode: overlay;
     color: white;
-  
     font: size 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 20px;
+   justify-content: space-around;
+   
+}
+
+.second-para{
+    width: 50%;
+
+}
+.icons{
+    width: 70px;
+    margin-bottom: 20px;
+    
+    
+}
+.box{
+    align-items: center;
+    width: 70px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.first-boxes{
+    display: flex;
+    gap: 5px;
+    margin-top: 6px;
+   
+    
 }
