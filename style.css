@@ -172,4 +172,43 @@
 .third-para{
   padding-left: 15px;
 }
-  
+  /* blog-and-news style start here */
+ .blog-and-news{
+    height: 300px;
+ }
+  .blog-title{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: black;
+    text-align: center;
+  }
+  .blog-para{
+    color: black;
+    text-align: center;
+  }
+  /* card makes style start here */
+  .card{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(104, 100, 100);
+    color: white;
+    box-shadow: 5px 9px 5px gray;
+    border-radius: 6px;
+  }
+  .blog-image{
+    width: 100%;
+    border-radius: 6px;
+  }
+  .card-title{
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  .cards{
+    display: flex;
+    align-items: center;
+   /* padding-top: 20px; */
+   margin-top: 25px;
+    justify-content: center;
+    gap: 25px;
+  }
+   /* card makes style end here */
